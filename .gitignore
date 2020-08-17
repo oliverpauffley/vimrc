@@ -1,0 +1,8 @@
+autoload/
+plugged/
+pluggedback/
+colors/
+spell
+coc-settings.json
+xterm-italics.terminfo
+.net*
