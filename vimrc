@@ -156,6 +156,7 @@ let g:ClangFormatAutoEnable=1
 
 " set colourschemes
 colorscheme gruvbox
+set bg=dark
 let g:gruvbox_contrast_dark = 1 
 
 " VimWiki
