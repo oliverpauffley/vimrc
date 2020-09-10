@@ -10,10 +10,8 @@ call plug#begin('~/.vim/plugged')
 " General Plugins
 Plug 'tpope/vim-surround'
 Plug '/usr/local/opt/fzf'
-Plug 'preservim/nerdtree'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'mileszs/ack.vim'
-Plug 'vimwiki/vimwiki'
 
 " Visuals
 Plug 'morhetz/gruvbox'
@@ -23,7 +21,6 @@ Plug 'vim-airline/vim-airline-themes'
 " Git Plugins
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Language Plugins
 Plug 'fatih/vim-go'
@@ -194,13 +191,6 @@ let g:tex_flavor = 'latex'
 
 " for json and jsonnet files dont make a .swp file
 autocmd FileType json,jsonnet setlocal nowritebackup noswapfile nobackup
-
-" NERDTree settings
-"---------------------------------------------------------------------------------
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1 
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Vim Markdown
 " ________________________________________________________________________________
