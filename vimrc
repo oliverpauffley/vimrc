@@ -61,7 +61,6 @@ let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 
-let g:go_list_type = "quickfix"
 " Test func with \ t
 autocmd FileType go nmap <leader>t <Plug>(go-test-func)
 " Test file with \ T
