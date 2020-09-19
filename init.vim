@@ -1,3 +1,5 @@
+call plug#begin(stdpath('data') . '/plugged')
+
 " General Plugins
 Plug 'tpope/vim-surround'
 Plug '/usr/local/opt/fzf'
